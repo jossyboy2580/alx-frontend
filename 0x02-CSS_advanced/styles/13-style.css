@@ -55,7 +55,7 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a[href]:not([href=""]) {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
@@ -68,7 +68,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a[href]:not([href=""]):active {
+a:active {
   color: var(--color-light-grey);
 }
 
