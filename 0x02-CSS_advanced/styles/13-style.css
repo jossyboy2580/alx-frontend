@@ -64,11 +64,11 @@ a:visited {
   font-style: italic;
 }
 
-a:hover {
+a:link:hover {
   text-decoration: underline;
 }
 
-a:active {
+a:link:active {
   color: var(--color-light-grey);
 }
 
