@@ -60,15 +60,15 @@ a[href^="http"] {
   text-decoration: none;
 }
 
-a[href^="http"]:visited {
+a:visited {
   font-style: italic;
 }
 
-a[href^="http"]:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a[href^="http"]:active {
+a:active {
   color: var(--color-light-grey);
 }
 
