@@ -68,7 +68,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active {
+a[href]:not([href=""]):active {
   color: var(--color-light-grey);
 }
 
